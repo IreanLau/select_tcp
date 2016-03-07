@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+_FD_DEFAULT_VAL_	select_server.c	4;"	d	file:
+_FD_NUM_	select_server.c	3;"	d	file:
+_select_fd	select_server.c	/^typedef struct _select_fd$/;"	s	file:
+fd_arr	select_server.c	/^	int fd_arr[512];$/;"	m	struct:_select_fd	file:
+init_select_set	select_server.c	/^static int init_select_set(select_fd_t* select_set,int listen_fd)$/;"	f	file:
+main	select_client.c	/^int main(int argc,char* argv[])$/;"	f
+main	select_server.c	/^int main(int argc,char* argv[])$/;"	f
+max_fd	select_server.c	/^	int max_fd;$/;"	m	struct:_select_fd	file:
+select_fd_t	select_server.c	/^}select_fd_t;$/;"	t	typeref:struct:_select_fd	file:
+usage	select_server.c	/^void usage(const char* proc)$/;"	f
